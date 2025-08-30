@@ -1,0 +1,22 @@
+<p>color-gallery works!</p>
+<div class="container my-4">
+  <h2 class="mb-4">🎨 Color Gallery</h2>
+
+  <!-- Filter box -->
+  <input type="text" [(ngModel)]="filterText" class="form-control mb-3" placeholder="Filter by title or hex">
+
+  <!-- Color tiles grid -->
+  <div class="row g-3">
+    <div class="col-md-4" *ngFor="let color of filteredColors">
+      <div class="card shadow-sm h-100">
+        <div class="card-header text-white" [style.backgroundColor]="color.hex" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.8);">
+          {{ color.title }}
+        </div>
+        <div class="card-body">
+          <p><strong>Hex:</strong> {{ color.hex }}</p>
+          <p class="text-muted">{{ color.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
