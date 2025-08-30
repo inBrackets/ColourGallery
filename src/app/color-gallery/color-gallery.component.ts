@@ -24,11 +24,12 @@ export class ColorGalleryComponent {
     // order by title
     // sources: https://color-register.org/
     {title: 'Bright Sky Blue', hex: '#02CCFE', description: ''},
-    {title: 'Crimson Red', hex: '#990000', description: 'A strong, bright, deep red color.'},
-    {title: 'Falu Red', hex: '#801818', description: 'A strong, bright, deep red color.'},
-    {title: 'Forest Green', hex: '#014421', description: 'Dark green shade, like dense forest trees.'},
-    {title: 'Sky Blue', hex: '#87CEEB', description: 'A light shade of blue, like the clear sky.'},
-    {title: 'Sunflower Yellow', hex: '#FFDA03', description: 'Bright yellow similar to sunflowers.'},
+    {title: 'Crimson Red', hex: '#990000', description: ''},
+    {title: 'Dark Sky Blue', hex: '#8CBED6', description: ''},
+    {title: 'Falu Red', hex: '#801818', description: ''},
+    {title: 'Forest Green', hex: '#014421', description: ''},
+    {title: 'Sky Blue', hex: '#87CEEB', description: ''},
+    {title: 'Sunflower Yellow', hex: '#FFDA03', description: ''},
 
   ];
 
