@@ -23,7 +23,7 @@ export class ColorGalleryComponent {
   colors: ColorTile[] = [
     // order by title
     // sources: https://color-register.org/
-    {title: 'Bright Sky Blue', hex}
+    {title: 'Bright Sky Blue', hex: '#02CCFE', description: ''},
     {title: 'Crimson Red', hex: '#990000', description: 'A strong, bright, deep red color.'},
     {title: 'Falu Red', hex: '#801818', description: 'A strong, bright, deep red color.'},
     {title: 'Forest Green', hex: '#014421', description: 'Dark green shade, like dense forest trees.'},
