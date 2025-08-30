@@ -36,7 +36,7 @@ jobs:
           reporter: java-junit
 
       - name: 🛠️ Build Angular App
-        run: npm run build -- --configuration production --base-href /AngularGitHubPages/
+        run: npm run build -- --configuration production --base-href /ColourGallery/
 
       - name: 👤 Set Git Identity
         run: |
@@ -52,4 +52,4 @@ jobs:
             --no-silent \
             --branch=gh-pages \
             --message="Auto-deployed from GitHub Actions 🚀" \
-            --repo=https://x-access-token:${GH_TOKEN}@github.com/inBrackets/AngularGitHubPages.git
+            --repo=https://x-access-token:${GH_TOKEN}@github.com/inBrackets/ColourGallery.git
